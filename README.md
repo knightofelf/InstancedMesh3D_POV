@@ -5,5 +5,6 @@ InstancedMesh 3D 텍스처 투영 뷰어 - GPU 점유율 0% <br>
 - InstancedMesh 3D 텍스처 투영 뷰어 - GPU 점유율 0%  (놀라운 효율 ㅇ_ㅇ'') 
 - 게임 렌더와 FPS도 멈춤 ㅇ_ㅇ;; 
 
-JS 코드에서 gl.getExtension('WEBGL_lose_context').loseContext(); 를 호출하면 브라우저의 WebGL 컨텍스트를 강제로 해제할 수 있습니다. ??
+- JS 코드에서 gl.getExtension('WEBGL_lose_context').loseContext(); 를 호출하면 브라우저의 WebGL 컨텍스트를 강제로 해제할 수 있습니다. ??
+- WebGPU (차세대 API) navigator.gpu.requestAdapter() → requestDevice() 로 GPU 디바이스를 초기화.
 </pre>
